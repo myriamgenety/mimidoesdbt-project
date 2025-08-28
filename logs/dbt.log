@@ -1,0 +1,29 @@
+[0m12:50:54.151859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071bb040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109daf610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109daf550>]}
+
+
+============================== 12:50:54.153774 | 31304b08-adc4-4642-95c7-69339a364bd8 ==============================
+[0m12:50:54.153774 [info ] [MainThread]: Running with dbt=1.7.9
+[0m12:50:54.154049 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/mygenety/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:50:54.154309 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/mygenety/.dbt')}
+[0m12:50:54.154481 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:52:19.518843 [debug] [MainThread]: Starter project path: /Users/mygenety/myenv/wildcodeschooltest/week_11/DBT_DEMO/my-dbt-env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:52:19.528750 [info ] [MainThread]: 
+Your new dbt project "mimidoesdbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:52:19.529629 [info ] [MainThread]: Setting up your profile.
+[0m12:52:31.440521 [info ] [MainThread]: Profile mimidoesdbt written to /Users/mygenety/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m12:52:31.455255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071bb040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109dafbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109dafdc0>]}
+[0m12:52:31.455598 [debug] [MainThread]: Flushing usage events
