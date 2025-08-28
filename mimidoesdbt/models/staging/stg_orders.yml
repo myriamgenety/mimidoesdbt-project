@@ -2,10 +2,13 @@ version: 2
 
 models:
   - name: stg_orders
+    description: Order data with basic cleaning/renaming; one row per order.
     columns:
       - name: order_id
+        description: Surrogate identifier of the order in the source system.
       - name: customer_id
+        description: Identifier of the customer who placed the order.
       - name: order_date
+        description: Original order timestamp/date as provided by the source.
       - name: store_id
-
-
+        description: Store identifier where the order originated.
